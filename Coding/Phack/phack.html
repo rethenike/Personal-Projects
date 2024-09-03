@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="phack.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+
+
+    <header>
+        <nav clas="topics">
+        <div class="content">
+            <div class="Name">
+                <a href="#">PHACK</a>
+            </div>
+            <div class="listings">
+                <ul class="subTopics">
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar">
+                <div class="dropdown">
+                  <button class="dropbtn" onclick="myFunction()">More
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Products</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">About us</a>
+                  </div>
+            </div>
+            
+        </div>
+        </nav>
+
+
+
+    </header>
+
+
+    
+
+    <!-- Background image -->
+
+<section id="section1">
+    <div class="covering">
+       <div class="slider">
+        <img id="slide-1" src="./Images/Untitled design (2).jpg" alt="picture of cute dog">
+        <img id="slide-2" src="./Images/Untitled design (1).jpg" alt="picture of cute dog">
+        <img id="slide-3" src="./Images/Untitled design.jpg" alt="picture of cute dog">
+       </div>
+       <div class="slider-nav">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+       </div>
+    </div>
+</section>
+
+
+<!-- Featured Products -->
+
+
+    <section class="product-section">
+        <div class="product-category accessories">
+            <h2>Dog Accessories</h2>
+            <ul>
+                <li>Collars & Leashes</li>
+                <li>Bowls & Feeders</li>
+                <li>Chew Toys</li>
+            </ul>
+        </div>
+        <div class="product-category clothing">
+            <h2>Dog Clothing</h2>
+            <ul>
+                <li>Coats & Jackets</li>
+                <li>Bandanas</li>
+                <li>Raincoats</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="product-description">
+        <p>Discover the best for your furry friend! Our dog accessories range from durable collars to fun toys, ensuring comfort and joy. Don't miss our stylish dog clothing, perfect for warmth and fashion in any weather. Explore our collection today!</p>
+    </section>
+
+
+
+
+</body>
+
+<footer id="footer">
+  <div  class="wrapper">
+  <div class="footing">
+    <p>
+        Follow us on our social media platform to stay up to date with our latest releases and sales!
+
+    </p>
+  </div>
+
+
+  <div class="button">
+    <div class="icon">
+      <i class="bi bi-instagram"></i>
+    </div> 
+    <span class="insta">
+      Instagram
+    </span>
+  </div>
+  </div>
+
+  <div class="copy">
+    <p>
+        Copyrighted © 2024 Phack Archives
+    </p>
+  </div>
+</footer>
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
+
+
+
+</html>

@@ -1,0 +1,640 @@
+/* 
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color:beige;
+}
+
+
+*{
+    text-decoration: none;
+}
+
+*/
+
+/* Header */
+/*
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: rgb(205, 229, 254); 
+    background: beige; 
+    font-family: Poppins;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5rem; 
+}
+
+.Name a{
+    font-size: 2.1em;
+    font-weight: 550;
+    /* color:rgb(254, 254, 196); 
+    color: black
+}
+
+li {
+    list-style: none; display: inline-block;
+}
+
+li a{
+    /* color: rgb(254, 254, 196); 
+    color: black; 
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: .25em;
+}
+
+li + li::before{
+    content: '|'; 
+}
+
+
+.content a:hover{
+    color: blueviolet;
+}
+
+.content a:active{
+    color: red;
+}
+
+
+/* Header Bar */ 
+
+/* 
+img { height: auto; }
+  
+input,
+button,
+select,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+*/
+
+
+
+/* Background image slide show 
+
+.covering {
+    position: relative;
+    /* max-width: 48rem; 
+    margin: 0 auto; 
+}
+
+.slider {
+    display: flex; 
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start; 
+    object-fit: cover; 
+    border-radius: 0.5rem; 
+}
+
+.slider-nav {
+    display: flex; 
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; 
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff; 
+    opacity: 0.75; 
+    transition: opacity ease 250ms; 
+}
+
+.slider-nav a:hover {
+    opacity: 1; 
+}
+
+/* second section products 
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* max-width: 1200px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product-category {
+    max-width: 100%;
+    padding: 2rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.product-category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-category ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    /* max-width: 1000px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-description p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    font-family: Poppins; 
+}
+
+/* Background images for each section 
+.accessories {
+    background-image: url('./Images/Untitled\ design\ \(3\).jpg');
+
+}
+
+.clothing {
+    background-image: url('./Images/Untitled\ design\ \(4\).jpg');
+
+}
+
+
+
+
+/* Media Query 
+
+@media (min-width: 430px) and (max-width: 932) {
+
+}
+
+
+@media (max-width: 1199px) and (min-width: 768) {
+
+}
+
+
+
+@media (max-width: 1200px) {
+    li {
+        list-style: none; display: inline-block;
+    }
+    
+    li a{
+        /* color: rgb(254, 254, 196); 
+        color: black; 
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-right: .25em;
+    }
+    
+    li + li::before{
+        content: '|'; 
+    }
+}
+
+
+
+/* */
+
+html {
+    font-size: 20px;
+    background-color: beige;
+}
+
+body {
+    background-color: beige;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.content {
+    display: block;
+    justify-content:space-between;
+    background: beige;
+    font-family: 'Poppins', sans-serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 0.5rem;
+}
+
+
+.Name a {
+    font-size: 2.1em;
+    font-weight: 550;
+    color: black;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+li a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+li + li::before {
+    content: '|';
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.content a:hover {
+    color: blueviolet;
+}
+
+.content a:active {
+    color: red;
+}
+
+/* Background image slide show */
+.covering {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: beige;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+/* Product Sections */
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    gap: 20px;
+
+}
+
+.product-category {
+    flex: 1;
+    min-width: 300px;
+    padding: 2rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+
+.product-category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-category ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    flex-basis: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-description p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Background images for each section */
+.accessories {
+    background-image: url('./Images/Untitled design (3).jpg');
+}
+
+.clothing {
+    background-image: url('./Images/Untitled design (4).jpg');
+}
+
+
+
+
+/* Footer */
+
+
+#footer {
+    background-color: #fff; 
+    font-family: poppins;
+    font-size: medium;
+    padding-top: 1rem;
+}
+
+.footing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.copy {
+    font-size: smaller;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.insta {
+    display: flex;
+    justify-content: center;
+    padding-bottom: .5rem;
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px){
+
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Name a {
+        font-size: 1.75em;
+        margin-bottom: 0.5em;
+    }
+
+
+    .product-section {
+        flex-direction: column;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .product-category {
+        padding: 1.5rem;
+        text-align: center;
+        height: auto;
+    }
+
+
+    .product-description p {
+        font-size: 1.1rem;
+    }
+
+    .slider {
+        aspect-ratio: 16/10;
+    }
+
+    .dropdown-content, .dropdown {
+        display: none; 
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 430px){
+    html {
+        font-size: 18px;
+    }
+
+    .Name a {
+        font-size: 1.5em;
+    }
+
+    li {
+        display: inline;
+        margin: 0.5em 0;
+    }
+
+    li + li::before {
+        content: '|';
+    }
+
+    .product-section {
+        padding: 10px;
+    }
+
+    .product-category  {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .product-description p {
+        font-size: 1rem;
+    }
+
+    .slider {
+        aspect-ratio: 4/3;
+    }
+
+    .slider-nav a {
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+    .dropdown-content, .dropdown {
+        display: none; 
+    }
+}
+
+
+@media (max-width: 430px) {
+    html {
+        font-size: 16px;
+    }
+
+    .Name a {
+        font-size: 2.5rem;
+    }
+
+    li {
+        display: inline;
+        margin: auto;
+    }
+
+    li + li::before {
+        content: '';
+    }
+
+    .subTopics {
+        padding-left: 1rem;
+    }
+
+    .product-section li {
+        display: inline;
+    }
+
+    .product-category {
+        width:100%
+    }
+
+    .product-description p {
+        font-size: 0.9rem;
+    }
+
+    .product-section {
+        padding: 8px;
+    }
+
+    .slider-nav a {
+        width: 0.3rem;
+        height: 0.3rem;
+    }
+
+    .listings {
+        display: none;
+    }
+
+    .navbar a {
+        float: right;
+        text-align: center;
+        text-decoration: none; 
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+        background-color: #b1dba6;
+        border-radius: .5rem;
+    }
+
+    .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        background-color: beige;
+        outline: none;
+        font-family: poppins;
+        margin: 0;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black; 
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: right; 
+    }
+
+    .dropdown-content a:hover {
+        background-color: #b1dba6;
+    }
+
+
+}
+
+
+
+
