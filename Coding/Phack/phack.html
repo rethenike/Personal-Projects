@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHACK</title>
     <link rel="stylesheet" href="phack.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -21,19 +22,19 @@
     <header>
         <nav clas="topics">
         <div class="content">
-            <div class="Name">
+          <div class="Name">
                 <a href="#">PHACK</a>
             </div>
             <div class="listings">
                 <ul class="subTopics">
                     <li>
-                        <a href="#">Products</a>
+                        <a href="products.html">Products</a>
                     </li>
                     <li>
-                        <a href="#">Contact us</a>
+                        <a href="./Contact/index (2).html">Contact us</a>
                     </li>
                     <li>
-                        <a href="#">About us</a>
+                        <a href="./Check out/index.html">Check Out</a>
                     </li>
                 </ul>
             </div>
@@ -47,6 +48,7 @@
                     <a href="#">Contact us</a>
                     <a href="#">About us</a>
                   </div>
+                </div>
             </div>
             
         </div>
@@ -105,6 +107,49 @@
 
 
 
+    
+<!--
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+      </script>
+    -->
+    <script>
+      // Function to toggle the dropdown
+      function toggleDropdown() {
+          var dropdown = document.getElementById("myDropdown");
+          dropdown.classList.toggle("show");
+      }
+  
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              for (var i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                      openDropdown.classList.remove('show');
+                  }
+              }
+          }
+      }
+  </script>
+
+
+
 
 </body>
 
@@ -120,10 +165,10 @@
 
   <div class="button">
     <div class="icon">
-      <i class="bi bi-instagram"></i>
+      <i class="fa-brands fa-instagram"></i>
     </div> 
     <span class="insta">
-      Instagram
+      
     </span>
   </div>
   </div>
@@ -135,23 +180,7 @@
   </div>
 </footer>
 
-<script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-    }
-  }
-  </script>
+
 
 
 
